@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "plowwren68-datagov_jd164"
+name = "plowwren68-memory_fragmentation_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出数据治理与血缘专家·显存碎片与分配策略上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://plowwren68.github.io"
-Repository = "https://github.com/plowwren68/datagov_jd164"
-Issues = "https://github.com/plowwren68/datagov_jd164/issues"
+Repository = "https://github.com/plowwren68/memory_fragmentation_count_trace"
+Issues = "https://github.com/plowwren68/memory_fragmentation_count_trace/issues"
 
 [project.scripts]
-datagov_jd164 = "datagov_jd164:main"
+memory_fragmentation_count_trace = "memory_fragmentation_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["datagov_jd164"]
+py-modules = ["memory_fragmentation_count_trace"]
